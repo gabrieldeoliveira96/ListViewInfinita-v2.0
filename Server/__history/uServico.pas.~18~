@@ -1,0 +1,49 @@
+unit uServico;
+
+interface
+
+uses Horse, System.SysUtils, DataSet.Serialize;
+
+procedure Servico(App: THorse);
+procedure Get(Req: THorseRequest; Res: THorseResponse; Next: TProc);
+
+implementation
+
+uses dmPrincipal;
+
+procedure Get(Req: THorseRequest; Res: THorseResponse; Next: TProc);
+begin
+
+  try
+    try
+
+      DataModule1 := TDataModule1.Create(nil);
+      DataModule1.FDQuery1.Active:= true;
+
+      Res.Send(DataModule1.FDQuery1.ToJSONArray.ToJSON);
+
+    finally
+      Res.Status(200);
+      FreeAndNil(DataModule1);
+
+    end;
+
+  except
+    on e: exception do
+    begin
+      Res.Send(e.Message);
+      Res.Status(400);
+
+    end;
+
+  end;
+
+end;
+
+procedure Servico(App: THorse);
+begin
+  App.Get('/ocorrencia', Get);
+
+end;
+
+end.

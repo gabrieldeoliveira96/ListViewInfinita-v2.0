@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/06/01 14:00:56.000.876,=C:\Users\gabri\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.pas</Transaction>
+    <Transaction>2020/06/01 14:00:56.000.765,=C:\Users\gabri\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2020/06/01 14:00:56.000.518,=C:\Users\gabri\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/06/01 14:01:23.000.454,=C:\Users\gabri\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2020/06/01 14:01:23.000.583,=C:\Users\gabri\Documents\Embarcadero\Studio\Projects\WebModuleUnit2.pas</Transaction>
+    <Transaction>2020/06/01 14:01:23.000.200,=C:\Users\gabri\Documents\Embarcadero\Studio\Projects\FormUnit2.pas</Transaction>
+    <Transaction>2020/06/09 20:36:13.000.436,=C:\Users\gabri\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/06/24 14:01:33.000.716,=C:\Users\gabri\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/06/29 22:02:44.923,E:\Gabriel\DelphiNaVeia\Listagem Infinita\Server\Server.dproj=C:\Users\gabri\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>2020/06/29 22:06:27.371,=E:\Gabriel\DelphiNaVeia\Listagem Infinita\Server\Unit1.pas</Transaction>
+    <Transaction>2020/06/29 22:06:37.798,E:\Gabriel\DelphiNaVeia\Listagem Infinita\Server\uServico.pas=E:\Gabriel\DelphiNaVeia\Listagem Infinita\Server\Unit1.pas</Transaction>
+    <Transaction>2020/06/29 22:10:14.561,=E:\Gabriel\DelphiNaVeia\Listagem Infinita\Server\Unit1.pas</Transaction>
+    <Transaction>2020/06/29 22:20:36.385,E:\Gabriel\DelphiNaVeia\Listagem Infinita\Server\dmPrincipal.pas=E:\Gabriel\DelphiNaVeia\Listagem Infinita\Server\Unit1.pas</Transaction>
+    <Transaction>2020/06/29 22:20:36.385,E:\Gabriel\DelphiNaVeia\Listagem Infinita\Server\dmPrincipal.dfm=E:\Gabriel\DelphiNaVeia\Listagem Infinita\Server\Unit1.dfm</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<PiOs iOSSimulator="iPhone5"/>
+		<NoProfile Android="LGH818d554ee08" Android64="LGH818d554ee08"/>
+	</ActiveMobileDevice>
+</BorlandProject>
